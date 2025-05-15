@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: calc(929px);
     background-position: right top;
+    text-align: center;
 }
 .container{
     height:100vh;
@@ -29,4 +30,19 @@ body{
     padding: 1em;
     color: var(--branco-secundario);
     display: block;
+    margin-bottom: 2em;
+
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__div{
+    margin: 0 6em;
 }
